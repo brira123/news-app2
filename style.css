@@ -1,0 +1,68 @@
+.the-logo {
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.pos-f-t {
+    height: 50px;
+    ;
+}
+
+.navbar {
+    height: 70px;
+}
+
+.news-heading {
+    margin-top: 20px;
+}
+
+.news-story {
+    display: flex;
+    border: solid gainsboro 1px;
+    margin: 1.3em;
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.news-image {
+    width: 100%;
+    height: 227px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.news-heading {
+    margin-left: 32px;
+    border-right: 1px solid black;
+    display: inline-block;
+    padding-right: 20px;
+}
+.img {
+    border: 1px solid gray;
+}
+footer {
+    margin: 5px;
+    padding: 1em;
+}
+.footer {
+    display: flex;
+}
+.sec {
+    margin-left: 1em;
+    margin-right: 5em;
+}
+.show, .tool, .about {
+    margin-left: 3em;
+    margin-right: 5em;
+}
+/* .footer > div {
+    margin: 95px;
+} */
+hr {
+    margin-top: 16px;
+}
