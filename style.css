@@ -66,3 +66,25 @@ footer {
 hr {
     margin-top: 16px;
 }
+#git {
+    font-size: 60px;
+	padding: 0 20px;
+	display: flex;
+	align-items: flex-end;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#git:hover {
+    color: blue;
+}
+button {
+    float: left;
+    position: absolute;
+    left: 0;
+    margin-left: 2px;
+}
+.navbar {
+    position: relative;
+}
