@@ -10,7 +10,7 @@ $.ajax({
               
                 <p> ${data.articles[i].description}</p>
             </div class="head-line">
-            <span class="news-image" style="background-image: url('${data.articles[i].urlToImage}');"></span>
+            <div class="news-image" style="background-image: url(${data.articles[i].urlToImage})"></div>
     
         </div>`
         }
